@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+img {
+    text-align: left;
+    position: absolute;
+    margin-top: 176px;
+    margin-left: 433px;
+    height: 106px;
+}
+
+.left-side p {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 463px;
+    font-size: 28px;
+}
+
+.login {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1%;
+    border-radius: 0.5rem;
+    width: 360px;
+    height: 315px;
+    margin-right: 480px;
+    margin-top: 130px;
+    float: right;
+    border:2px transparent #e6e5e5;
+    box-shadow: 2px 2px 2px 2px #e6e5e5;
+}
+
+form input {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    background-color: white;
+    border:1px solid #dddfe2;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+form input:focus{
+    border: 1.8px solid #1877f2;
+    }
+
+.login-btn {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 365px;
+    color: white;
+    cursor: pointer;
+}
+
+.container .fgt-pass {
+    background-color: white;
+    }
+
+.fgt-pass {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 5%;
+    color: #1877f2;
+}
+
+a:link {
+    text-decoration: none;
+    background-color: white;
+}
+
+a:visited {
+    color: #1877f2;
+    background-color: white;
+}
+
+.signup-btn {
+    background-color: rgb(33, 172, 33);
+    border: none;
+    text-align: center;
+    color: white;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 0.6rem;
+    line-height: 48px;
+}
+
+.right-text {
+    text-align: center;
+    margin: 25px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    background-color: #f1f1f1;
+    font-size: 14px;
+}
+
+.right-text a {
+    color: black;
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+.right-text a:hover {
+    text-decoration: underline;
+}
+
+.page {
+    background-color: #f1f1f1;
+    color: black;
+}
